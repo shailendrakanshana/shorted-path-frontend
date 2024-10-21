@@ -50,7 +50,7 @@ const Grid = () => {
     return (
       <div
         key={`${row}-${col}`}
-        className={`w-[30px] h-[30px] border border-black ${bgColor} cursor-pointer rounded hover:w-[32px] hover:h-[32px] hover:border-green-500 hover:greay`}
+        className={`w-[30px] h-[30px] border border-black ${bgColor} cursor-pointer rounded hover:border-green-500 hover:greay`}
         onClick={() => handleTileClick(row, col)}
       />
     );
